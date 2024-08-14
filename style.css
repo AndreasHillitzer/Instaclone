@@ -1,0 +1,430 @@
+.top-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 10px 10px;
+    height: 30px;
+    display: none;
+}
+
+body {
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+}
+
+* {
+    margin: 0;
+}
+
+.insta-headline{
+    font-size: 40px;
+    cursor: pointer;
+    font-family: "Playball", cursive;
+    padding-top: 30px;
+    margin-left: 10px;
+}
+
+.header-inputfield{
+    height: 25px;
+    width: 200px;
+    text-align: center;
+}
+
+::placeholder {
+    text-align: center;
+}
+
+.header-inputfield:placeholder-shown {
+    text-align: left;
+}
+
+.header-inputfield:focus::placeholder{
+    color: transparent;
+}
+
+.header-icon-div{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-icon{
+    height: 30px;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.post-img {
+    width: 468px;
+    height: 584px;
+    border-radius: 5px;
+}
+
+.posts {
+    position: relative;
+    max-width: 468px;
+    padding-bottom: 10px;
+}
+
+.profile-img {
+    height: 40px;
+    border-radius: 50%;
+}
+
+.post-header {
+    display: flex;
+    padding-bottom: 10px;
+    align-items: center;
+}
+
+.author-time-location {
+    padding-left: 8px;
+}
+
+.author-time {
+    display: flex;
+}
+
+.options {
+    font-size: 15px;
+}
+
+.options-img {
+    height: 20px;
+    right: 0px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.below-img-icon {
+    cursor: pointer;
+    height: 25px;
+}
+
+.buttons-below-picture {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+
+.amount-likes{
+    padding-bottom: 3px;
+}
+
+.left-icons {
+    padding-right: 10px;
+}
+
+.description {
+    display: inline-block;
+    padding-bottom: 3px;
+}
+
+.ds-none {
+    display: none;
+}
+
+.side-header {
+    position: fixed;
+    width: 300px;
+    border-right: 0.1px solid #DBDBDB;
+    display: flex;
+    flex-direction: column;
+    height: 100vH;
+    justify-content: flex-start;
+    margin-left: 20px;
+}
+
+.side-header-icon {
+    height: 25px;
+    margin-left: 10px;
+}
+
+.side-header-element {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 15px;
+    height: 50px;
+    width: 280px;
+}
+
+.side-header-element:hover{
+    border: 0;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    height: 50px;
+    width: 280px;
+    transform: scale(1.03);
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+    transition-property: all;
+}
+
+.top-elements {
+    padding-top: 30px;
+    flex-grow: 1;
+}
+
+.bottom-elements {
+    padding-bottom: 40px;
+}
+
+.main-content {
+    padding-left: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.recommendation-post {
+    display: flex;
+    padding-bottom: 15px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.recommendation-right-side {
+    cursor: pointer;
+}
+
+.right-side-content {
+    min-width: 320px;
+    position: relative;
+    padding-left: 150px;
+    padding-top: 50px;
+}
+
+.profile-names {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.follow {
+    font-weight: bold;
+    color: #199FF7;
+}
+
+.recommend {
+    color: #818181;
+}
+
+.recommended-profile-img {
+    border-radius: 50%;
+    height: 45px;
+    cursor: pointer;
+}
+
+.recommended-profiles {
+    padding-left: 10px;
+    flex-grow: 1;
+}
+
+textarea {
+    resize: none;
+    outline: none;
+    border: none;
+    width: 426px;
+    font-size: 14px;
+    font-family: "DM Sans", sans-serif;
+    height: 16px;
+}
+
+textarea::placeholder {
+    text-align: left;
+}
+
+.my-comment {
+    display: flex;
+    align-items: center;
+    padding-top: 3px;
+}
+
+.comment-button{
+    font-weight: bold;
+    color: #199FF7;
+    cursor: pointer;
+}
+
+.separator {
+    height: 1px;
+    background-color: lightgray;
+    margin-top: 14px;
+    margin-bottom: 16px;
+}
+
+.story-img {
+    border-radius: 50%;
+    height: 60px;
+    cursor: pointer;
+    padding: 0 3px;
+}
+
+.story-div {
+    display: flex;
+    padding-top: 20px;
+}
+
+.story-img-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.postandstory {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.story {
+    padding-top: 45px;
+    padding-bottom: 35px;
+}
+
+.following {
+    padding-left: 10px;
+    color: #737373;
+}
+
+.following:hover {
+    color: black;
+}
+
+.story-headline {
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.story-name {
+    cursor: pointer;
+}
+
+.story-header {
+    border-bottom: 0.1px solid #DBDBDB;
+    height: 25px;
+}
+
+@media(max-width: 1435px) {
+    .right-side-content {
+        padding-left: 35px;
+        min-width: 250px;
+    }
+    
+    .main-content{
+        padding-left: 200px;
+    }
+
+    .side-header {
+        width: 200px;
+    }
+}
+
+@media(max-width: 1100px) {
+    .options {
+        display: none;
+    }
+
+    .insta-headline {
+        display: none;
+    }
+
+    .side-header {
+        width: 50px;
+    }
+
+    .main-content {
+        padding-left: 80px;
+    }
+
+    .side-header-icon {
+        margin: 0;
+    }
+}
+
+@media(max-width: 950px) {
+    .right-side-content {
+        display: none;
+    }
+}
+
+@media(max-width: 700px){
+    .side-header {
+        display: none;
+    }
+
+    .main-content {
+        padding: 0;
+        width: 100%;
+        display: block;
+    }
+
+    .top-header {
+        display: block;
+    }
+
+    .story-div {
+        justify-content: center;
+    }
+
+    .story-header {
+        display: inline-flex;
+        width: 486px;
+    }
+}
+
+@media(max-width: 550px){
+    .story-hide {
+        display: none;
+    }
+
+    .story-header {
+        border-bottom: 0;
+        width: 100%;
+    }
+
+    .story {
+        max-width: 468px;
+    }
+}
+
+@media(max-width: 500px) {
+    .post-img {
+        width: 350px;
+        height: 437px;
+    }
+
+    .posts {
+        width: 350px;
+    }
+
+    .story {
+        width: 350px;
+    }
+
+    .story-hide2{
+        display: none;
+    }
+
+    .header-icon {
+        padding: 0 5px;
+    }
+}
+
+@media(max-width: 375px) {
+    .post-img {
+        width: 300px;
+        height: 374px;
+    }
+
+    .posts {
+        width: 300px;
+    }
+
+    .story {
+        width: 300px;
+    }
+
+    .story-hide3 {
+        display: none;
+    }
+}

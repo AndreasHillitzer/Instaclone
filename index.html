@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insta-Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="fonts" href="./fonts/fonts.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playball&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body onload="render()">
+    <header>
+        <div class="top-header">
+            <div class="header-icon-div">
+                <img src="./img/home.png" class="header-icon">
+                <img src="img/send.png" class="header-icon">
+                <img src="img/location.png" class="header-icon">
+                <img src="img/heart.png" class="header-icon">
+                <img src="img/profile1.jpg" class="header-icon" style="border-radius: 50%;">
+            </div>
+        </div>
+        <div class="side-header">
+            <span class="insta-headline">Instaclone</span>
+            <div class="top-elements">
+                <div class="side-header-element"><img src="img/home.png" alt="" class="side-header-icon"><p class="options" style="font-weight: bold;">Startseite</p></div>
+                <div class="side-header-element"><img src="img/search.png" alt="" class="side-header-icon"><p class="options">Suche</p></div>
+                <div class="side-header-element"><img src="img/location.png" alt="" class="side-header-icon"><p class="options">Entdecken</p></div>
+                <div class="side-header-element"><img src="img/clapperboard-play.png" alt="" class="side-header-icon"><p class="options">Reels</p></div>
+                <div class="side-header-element"><img src="img/send.png" alt="" class="side-header-icon"><p class="options">Nachrichten</p></div>
+                <div class="side-header-element"><img src="img/heart.png" alt="" class="side-header-icon"><p class="options">Benachrichtigungen</p></div>
+                <div class="side-header-element"><img src="img/square-plus.png" alt="" class="side-header-icon"><p class="options">Erstellen</p></div>
+                <div class="side-header-element"><img src="img/profile1.jpg" style="border-radius: 50%;" alt="" class="side-header-icon"><p class="options">Profil</p></div>
+            </div>
+            <div class="bottom-elements">
+                <div class="side-header-element"><img src="img/threads.png" alt="" class="side-header-icon"><p class="options">Threads</p></div>
+                <div class="side-header-element"><img src="img/menu-burger.png" alt="" class="side-header-icon"><p class="options">Mehr</p></div>
+            </div>
+        </div>    
+    </header>
+    <div class="main-content">
+        <div class="postandstory">
+            <div class="story">
+                <div class="story-header">
+                   <b class="story-headline">Für dich</b>
+                   <b class="following story-headline">Gefolgt</b>
+                </div>
+                <div class="story-div">
+                    <div class="story-img-div">
+                        <img src="./img/story1.jpg" class="story-img">
+                        <p class="story-name">anja</p>
+                    </div>
+                    <div class="story-img-div">
+                        <img src="./img/story2.jpg" class="story-img">
+                        <p class="story-name">tim</p>
+                    </div>
+                    <div class="story-img-div">
+                        <img src="./img/story3.jpg" class="story-img">
+                        <p class="story-name">lena</p>
+                    </div>
+                    <div class="story-img-div">
+                        <img src="./img/story4.jpg" class="story-img">
+                        <p class="story-name">julie</p>
+                    </div>
+                    <div class="story-img-div story-hide3">
+                        <img src="./img/story5.jpg" class="story-img">
+                        <p class="story-name">anna</p>
+                    </div>
+                    <div class="story-img-div story-hide2">
+                        <img src="./img/story6.jpg" class="story-img">
+                        <p class="story-name">mia</p>
+                    </div>
+                    <div class="story-img-div story-hide2">
+                        <img src="./img/story7.jpg" class="story-img">
+                        <p class="story-name">pia</p>
+                    </div>
+                    <div class="story-img-div story-hide">
+                        <img src="./img/story8.jpg" class="story-img">
+                        <p class="story-name">gandalf</p>
+                    </div>
+                </div>
+            </div>
+            <div id="postcontainer" class="postcontainer"></div>
+        </div>
+        <div class="right-side-content">
+            <div class="recommendation-post">
+                <img src="./img/profile1.jpg" class="recommended-profile-img">
+                <div class="recommended-profiles">
+                    <p class="profile-names">andreas_chillitzer</p>
+                </div>
+                <p class="recommendation-right-side follow">Wechseln</p>
+            </div>
+            <div class="recommendation-post">
+                <p class="recommend" style="font-weight: bold;">Vorschläge für dich</p>
+                <p class="recommendation-right-side" style="font-weight: bold; color: #464646;">Alle ansehen</p>
+            </div>
+            <div class="recommendation-post">
+                <img src="./img/recommendation1.jpg" class="recommended-profile-img">
+                <div class="recommended-profiles">
+                    <p class="profile-names">skydiving</p>
+                    <p class="recommend">Vorschläge für dich</p>
+                </div>
+                <p class="recommendation-right-side follow">Folgen</p>
+            </div>
+            <div class="recommendation-post">
+                <img src="./img/recommendation2.jpg" class="recommended-profile-img">
+                <div class="recommended-profiles">
+                    <p class="profile-names">fussball.news</p>
+                    <p class="recommend">Vorschläge für dich</p>
+                </div>
+                <p class="recommendation-right-side follow">Folgen</p>
+            </div>
+            <div class="recommendation-post">
+                <img src="./img/recommendation3.jpg" class="recommended-profile-img">
+                <div class="recommended-profiles">
+                    <p class="profile-names">wintersport</p>
+                    <p class="recommend">Vorschläge für dich</p>
+                </div>
+                <p class="recommendation-right-side follow">Folgen</p>
+            </div>
+            <div class="recommendation-post">
+                <img src="./img/recommendation4.jpg" class="recommended-profile-img">
+                <div class="recommended-profiles">
+                    <p class="profile-names">wild.animals</p>
+                    <p class="recommend">Vorschläge für dich</p>
+                </div>
+                <p class="recommendation-right-side follow">Folgen</p>
+            </div>
+            <div class="recommendation-post">
+                <img src="./img/recommendation5.jpg" class="recommended-profile-img">
+                <div class="recommended-profiles">
+                    <p class="profile-names">catsofinstagram</p>
+                    <p class="recommend">Vorschläge für dich</p>
+                </div>
+                <p class="recommendation-right-side follow">Folgen</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
