@@ -13,3 +13,9 @@ Klicken Sie erneut auf das rote Herz, um den Like rückgängig zu machen. Das He
 - Kommentarfunktion:
 Nutzer können Kommentare zu einem Bild schreiben und auf "Posten" klicken, um den Kommentar zu speichern.
 Alle Kommentare werden im localStorage gespeichert, sodass sie beim nächsten Besuch der Seite wieder verfügbar sind.
+
+## Vorschau
+
+<img width="1916" height="1030" alt="Screenshot 2025-07-21 213842" src="https://github.com/user-attachments/assets/d65afdae-47b7-4010-8b08-aa62b1f57207" />
+<img width="529" height="768" alt="Screenshot 2025-07-21 214154" src="https://github.com/user-attachments/assets/a5ad922e-92f3-4d80-bcdf-ca2bde842ad7" />
+<img width="386" height="840" alt="Screenshot 2025-07-21 214811" src="https://github.com/user-attachments/assets/cb58d57d-bcc5-406b-8a62-9cb66e6bb895" />
